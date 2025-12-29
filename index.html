@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTX Tech Bio - Orlando Abreu</title>
+
+  <meta property="og:title" content="Orlando Abreu | BTX Tech Bio">
+  <meta property="og:description" content="Soluções em Biotecnologia, Saúde e Educação Científica">
+  <meta property="og:image" content="cartao-btx.jpg">
+  <meta property="og:type" content="website">
+
+  <style>
+    :root {
+      --cor-btx: #27ae60;
+      --fundo: #0f0f0f;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--fundo);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      max-width: 350px;
+      width: 100%;
+      background: #1a1a1a;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      text-align: center;
+      border: 1px solid #333;
+    }
+    .card img {
+      width: 100%;
+      display: block;
+      transition: transform .3s;
+    }
+    .info-container {
+      padding: 20px;
+    }
+    h1 { font-size: 1.4rem; margin: 10px 0; }
+    .subtitle { color: var(--cor-btx); font-weight: bold; font-size: 0.9rem; text-transform: uppercase; }
+    
+    .botoes {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+    }
+    .btn {
+      text-decoration: none;
+      color: white;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+      text-align: center;
+    }
+    .btn-insta { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+    .btn-whats { background: #25d366; }
+    .btn-email { background: #2c3e50; }
+
+    .btn:hover { transform: scale(1.03); opacity: 0.9; }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <a href="https://instagram.com/Orlandoabreu" target="_blank">
+      <img src="cartao-btx.jpg" alt="Cartão Orlando Abreu">
+    </a>
+
+    <div class="info-container">
+      <h1>Orlando Abreu G. da Silva</h1>
+      <span class="subtitle">BTX Tech Bio</span>
+      <p style="font-size: 0.85rem; color: #aaa; margin-top: 15px;">
+        Startup sem fins lucrativos focada em Softwares de Saúde, Equipamentos e Educação Científica.
+      </p>
+    </div>
+
+    <div class="botoes">
+      <a href="https://wa.me/5591998738360" class="btn btn-whats">Falar no WhatsApp</a>
+      <a href="mailto:gerenciamentodecontasorlando@gmail.com" class="btn btn-email">Enviar E-mail</a>
+      <a href="https://instagram.com/Orlandoabreu" class="btn btn-insta">Ver Projetos no Instagram</a>
+    </div>
+  </div>
+
+  <footer style="margin-top: 30px; font-size: 0.7rem; color: #555;">
+    Belém, PA - Inovação em Biotecnologia
+  </footer>
+
+</body>
+</html>
